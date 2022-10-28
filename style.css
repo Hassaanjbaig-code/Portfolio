@@ -52,6 +52,7 @@
   background-color: #fff;
 }
 
+/* Add bacgorund and also do flex as column wise */
 .main-text {
   height: 100%;
   background-color: #fff;
@@ -70,6 +71,7 @@
   background-color: #fff;
 }
 
+/* Add the des which has flex that is flex grow, flex shrink, and flex basic */
 .main-header {
   flex: 0 1 97px;
   font-size: 22px;
