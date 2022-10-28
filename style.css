@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
 }
 
 /* This is the containers where we are center over project */
@@ -87,7 +86,7 @@
 /* Add the des which has flex that is flex grow, flex shrink, and flex basic */
 .main-header {
   flex: 0 1 97px;
-  font-size: 22px;
+  font-size: 29px;
   font-weight: 400;
   letter-spacing: 2.5px;
 }
