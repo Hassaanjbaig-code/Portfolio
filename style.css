@@ -41,8 +41,8 @@
   color: #6070ff;
 }
 
-.navbar a:active{
-  color: #2230D2
+.navbar a:active {
+  color: #2230d2;
 }
 
 /* This is logo  */
@@ -120,20 +120,18 @@
   background-color: #fff;
 }
 
-.social-media{
+.social-media {
   display: flex;
   flex-wrap: nowrap;
   background-color: #fff;
-  /* padding-left: 3px; */
 }
 
 .social-media li a {
   background-color: #fff;
   color: white;
   display: flex;
-  /* flex-wrap: 2px; */
 }
 
 .social-media li a img {
- margin: 17px;
+  margin: 17px;
 }
