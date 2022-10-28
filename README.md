@@ -100,7 +100,7 @@ npx stylelint "**/*.{css,scss}"
   
 ## Checking 
 This is the screenshot that all the thing is okay
-![Capture](https://user-images.githubusercontent.com/80938128/198561094-7a9ae951-a751-401f-bbdf-a62e65c279aa.JPG)
+![Capture](https://user-images.githubusercontent.com/80938128/198561589-d08399ef-a569-4a88-af79-37a1c6f1aba6.JPG)
 
 
 ## Authors
