@@ -101,29 +101,3 @@ npx stylelint "**/*.{css,scss}"
 ## Checking 
 This is the screenshot that all the thing is okay
 
-![Capture](https://user-images.githubusercontent.com/80938128/198561589-d08399ef-a569-4a88-af79-37a1c6f1aba6.JPG)
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@hassaanjbaig-code](https://github.com/Hassaanjbaig-code)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-Thanks for MIcroverse made this happen 
-Hope I will apprved 
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
