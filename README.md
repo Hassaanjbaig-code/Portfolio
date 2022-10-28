@@ -97,7 +97,27 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 ```bash
 npx stylelint "**/*.{css,scss}"
 ``` 
-  
-## Checking 
-This is the screenshot that all the thing is okay
 
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@hassaanjbaig-code](https://github.com/Hassaanjbaig-code)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+Thanks for MIcroverse made this happen 
+Hope I will apprved 
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
