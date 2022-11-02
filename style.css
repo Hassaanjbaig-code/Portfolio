@@ -5,132 +5,246 @@
 
 /* This is the containers where we are center over project */
 
-.container-1 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+@media screen and (max-width: 786px) {
+  .container-1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  /* Giving the heigh */
+  .container {
+    height: 718px;
+    width: 375px;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  /* Design the navbar */
+  .navbar {
+    background-color: #fff;
+    height: 92px;
+    width: 100%;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+    color: #6070ff;
+    font-size: 18px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #6070ff;
+  }
+
+  .navbar a:hover {
+    color: #6070ff;
+  }
+
+  .navbar a:active {
+    color: #2230d2;
+  }
+
+  /* This is logo  */
+  .navbar .left {
+    text-align: center;
+    list-style: none;
+    flex-basis: 100px;
+    background-color: #fff;
+  }
+
+  /* This is the icon area */
+
+  .navbar .right {
+    list-style: none;
+    flex-basis: 40px;
+    background-color: #fff;
+  }
+
+  .material-symbols-outlined {
+    background-color: #fff;
+  }
+
+  /* Add bacgorund and also do flex as column wise */
+  .main-text {
+    height: 100%;
+    background-color: #fff;
+    background-image: url(./Microverse-Student-Project-1/header-shapes\ mobile.png);
+    border-radius: 0 0 0 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 21px 0 21px;
+    gap: 7px;
+  }
+
+  .main-header h1 {
+    color: black;
+    font-family: 'Crete Round', serif;
+    background-color: #fff;
+  }
+
+  /* Add the des which has flex that is flex grow, flex shrink, and flex basic */
+  .main-header {
+    flex: 0 1 97px;
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+  }
+
+  .dis {
+    align-self: center;
+  }
+
+  .dis p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    background-color: #fff;
+  }
+
+  .connect h3 {
+    color: #7f8cff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+  }
+
+  .icon {
+    background-color: #fff;
+    color: #fff;
+  }
+
+  .icon img {
+    background-color: #fff;
+  }
+
+  .social-media {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+  }
+
+  .social-media-icon {
+    background-color: #fff;
+    color: white;
+    display: flex;
+  }
+
+  .social-media-icon img {
+    margin: 17px;
+  }
 }
 
-/* Giving the heigh */
-.container {
-  height: 718px;
-  width: 375px;
-}
+@media (min-width: 786px) {
+  .container {
+    height: 916px;
+  }
 
-/* Design the navbar */
-.navbar {
-  background-color: #fff;
-  height: 92px;
-  width: 100%;
-  display: flex;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  justify-content: space-between;
-  align-items: center;
-  color: #6070ff;
-  font-size: 18px;
-}
+  .right {
+    display: none;
+  }
 
-.navbar a {
-  text-decoration: none;
-  color: #6070ff;
-}
+  .navbar {
+    background-color: #fff;
+    height: 92px;
+    width: 100%;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+    color: #6070ff;
+    font-size: 18px;
+  }
 
-.navbar a:hover {
-  color: #6070ff;
-}
+  .navbar a {
+    text-decoration: none;
+    color: #6070ff;
+  }
 
-.navbar a:active {
-  color: #2230d2;
-}
+  .nav-right {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+  }
 
-/* This is logo  */
-.navbar .left {
-  text-align: center;
-  list-style: none;
-  flex-basis: 100px;
-  background-color: #fff;
-}
+  .nav-right:hover {
+    color: #6070ff;
+  }
 
-/* This is the icon area */
+  .nav-right:active {
+    color: #6070ff;
+  }
 
-.navbar .right {
-  list-style: none;
-  flex-basis: 40px;
-  background-color: #fff;
-}
+  .navbar a li {
+    list-style: none;
+  }
 
-.material-symbols-outlined {
-  background-color: #fff;
-}
+  .left {
+    padding: 0 50px;
+  }
 
-/* Add bacgorund and also do flex as column wise */
-.main-text {
-  height: 100%;
-  background-color: #fff;
-  background-image: url(./Microverse-Student-Project-1/header-shapes\ mobile.png);
-  border-radius: 0 0 0 56px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 21px 0 21px;
-  gap: 7px;
-}
+  nav {
+    display: flex;
+    padding: 0 50px;
+  }
 
-.main-header h1 {
-  color: black;
-  font-family: 'Crete Round', serif;
-  background-color: #fff;
-}
+  .main-text {
+    height: 100%;
+    background-color: #fff;
+    background-image: url(./Microverse-Student-Project-1/Header\ bg@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+    padding: 0 23% 0 10%;
+  }
 
-/* Add the des which has flex that is flex grow, flex shrink, and flex basic */
-.main-header {
-  flex: 0 1 97px;
-  font-size: 29px;
-  font-weight: 400;
-  letter-spacing: 2.5px;
-}
+  .main-header h1 {
+    font-size: 53px;
+    font-weight: 700;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
 
-.dis {
-  align-self: center;
-}
+  .dis p {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #344563;
+  }
 
-.dis p {
-  color: black;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.3;
-  background-color: #fff;
-}
+  .connect h3 {
+    color: #7f8cff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+  }
 
-.connect h3 {
-  color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
-  background-color: #fff;
-}
+  .social-media {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+  }
 
-.icon {
-  background-color: #fff;
-  color: #fff;
-}
+  .social-media-icon {
+    background-color: #fff;
+    color: white;
+    display: flex;
+  }
 
-.icon img {
-  background-color: #fff;
-}
-
-.social-media {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: #fff;
-}
-
-.social-media-icon {
-  background-color: #fff;
-  color: white;
-  display: flex;
-}
-
-.social-media-icon img {
-  margin: 17px;
+  .social-media-icon img {
+    margin: 17px;
+  }
 }
